@@ -8,7 +8,9 @@ struct ItemRow: View {
     
     var body: some View {
         NavigationLink(destination: RecipeDetailView(item: item)) {
+            
             HStack {
+                
                 Image(item.thumbnailImage)
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.black, lineWidth: 2))

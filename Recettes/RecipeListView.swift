@@ -8,6 +8,7 @@ struct RecipeListView: View {
     var body: some View {
         NavigationView{
             List {
+                
 //                Casser pour avoir les différentes catégories des recettes
                 ForEach(menu) { section in
                         Section(header: Text(section.name)) {
