@@ -39,8 +39,6 @@ struct ItemRow: View {
                 }
             }
         }
-        
-        
     }
 }
 

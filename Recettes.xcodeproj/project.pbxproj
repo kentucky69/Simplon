@@ -16,10 +16,10 @@
 		DDD6567B24A356810045E77F /* RecettesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6567A24A356810045E77F /* RecettesTests.swift */; };
 		DDD6568624A356810045E77F /* RecettesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6568524A356810045E77F /* RecettesUITests.swift */; };
 		DDD6569624A356F10045E77F /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = DDD6569324A356F10045E77F /* menu.json */; };
-		DDD6569824A356F10045E77F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6569524A356F10045E77F /* Menu.swift */; };
-		DDD6569A24A35A030045E77F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6569924A35A030045E77F /* Helper.swift */; };
 		DDD6569C24A373040045E77F /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6569B24A373040045E77F /* ItemRow.swift */; };
 		DDD656A024A39BC90045E77F /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD6569F24A39BC90045E77F /* RecipeDetailView.swift */; };
+		DDD656A624A4A92B0045E77F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD656A424A4A8EA0045E77F /* Helper.swift */; };
+		DDD656A724A4A9300045E77F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD656A524A4A90A0045E77F /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		DDD6568524A356810045E77F /* RecettesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecettesUITests.swift; sourceTree = "<group>"; };
 		DDD6568724A356810045E77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDD6569324A356F10045E77F /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
-		DDD6569524A356F10045E77F /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../../Downloads/idine/Menu.swift; sourceTree = "<group>"; };
-		DDD6569924A35A030045E77F /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../../../Downloads/idine/Helper.swift; sourceTree = "<group>"; };
 		DDD6569B24A373040045E77F /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		DDD6569F24A39BC90045E77F /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		DDD656A424A4A8EA0045E77F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Controller/Helper.swift; sourceTree = "<group>"; };
+		DDD656A524A4A90A0045E77F /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = Controller/Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +109,12 @@
 		DDD6566224A3567F0045E77F /* Recettes */ = {
 			isa = PBXGroup;
 			children = (
-				DDD6566724A3567F0045E77F /* RecipeListView.swift */,
 				DDD6566324A3567F0045E77F /* AppDelegate.swift */,
-				DDD6569924A35A030045E77F /* Helper.swift */,
+				DDD656A424A4A8EA0045E77F /* Helper.swift */,
+				DDD6566724A3567F0045E77F /* RecipeListView.swift */,
 				DDD6569B24A373040045E77F /* ItemRow.swift */,
 				DDD6569F24A39BC90045E77F /* RecipeDetailView.swift */,
-				DDD6569524A356F10045E77F /* Menu.swift */,
+				DDD656A524A4A90A0045E77F /* Menu.swift */,
 				DDD6566524A3567F0045E77F /* SceneDelegate.swift */,
 				DDD6566924A356810045E77F /* Assets.xcassets */,
 				DDD6566E24A356810045E77F /* LaunchScreen.storyboard */,
@@ -285,11 +285,11 @@
 			files = (
 				DDD6566424A3567F0045E77F /* AppDelegate.swift in Sources */,
 				DDD6566624A3567F0045E77F /* SceneDelegate.swift in Sources */,
+				DDD656A724A4A9300045E77F /* Menu.swift in Sources */,
 				DDD6566824A3567F0045E77F /* RecipeListView.swift in Sources */,
 				DDD656A024A39BC90045E77F /* RecipeDetailView.swift in Sources */,
 				DDD6569C24A373040045E77F /* ItemRow.swift in Sources */,
-				DDD6569824A356F10045E77F /* Menu.swift in Sources */,
-				DDD6569A24A35A030045E77F /* Helper.swift in Sources */,
+				DDD656A624A4A92B0045E77F /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

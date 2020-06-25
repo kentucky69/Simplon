@@ -13,11 +13,16 @@ struct RecipeDetailView: View {
     var item: MenuItem
     
     var body: some View {
-        VStack {
-            Image(item.mainImage)
-            Text(item.description)
-                .padding()
-            Spacer()
+        NavigationView {
+            List {
+                Image(item.mainImage)
+                Text("INGREDIENTS")
+                Text(item.description)
+                    .padding()
+                Text("INGREDIENTS")
+                Text(item.description2)
+                Spacer()
+            }
         }
         .navigationBarTitle(Text(item.name), displayMode: .inline)
     }
